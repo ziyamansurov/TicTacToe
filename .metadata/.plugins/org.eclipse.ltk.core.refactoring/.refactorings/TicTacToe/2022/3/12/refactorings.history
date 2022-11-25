@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;pos&apos; in &apos;TicTacToeMain.main(...)&apos; to &apos;playerPos&apos;&#x0A;- Original project: &apos;TicTacToe&apos;&#x0A;- Original element: &apos;TicTacToeMain.main(String[]).pos&apos;&#x0A;- Renamed element: &apos;pos&apos;&#x0A;- Update references to refactored element" description="Rename local variable &apos;pos&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{TicTacToeMain.java[TicTacToeMain~main~\[QString;@pos!420!444!424!426!I!0!false" name="playerPos" references="true" stamp="1647632630240" version="1.0"/>
+</session>

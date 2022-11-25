@@ -1,0 +1,36 @@
+import java.util.*;
+public class TicTacToeMain {
+
+	public static void main(String[] args) {
+
+		char[][] gameBoard = { { ' ', '|', ' ', '|',' '} ,
+				{ '-', '+','-', '+', '-' },
+				{ ' ', '|', ' ', '|',' ' },
+				{ '-', '+', '-', '+','-' },
+				{ ' ', '|', ' ', '|',' ' }};
+		
+		printGameBoard(gameBoard);
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.print("Yerinizi secin (1-9):");
+		int pos=scan.nextInt();
+		System.out.println(pos);
+		
+		
+	
+	
+	}
+	public static void printGameBoard(char[][] gameBoard) {
+		for(char[] row:gameBoard) {
+			for(char c:row) {
+				System.out.print(c);
+			}
+			System.out.println();
+		}
+		
+	//public static int getPos() {	
+	//}
+
+
+}
+	}
